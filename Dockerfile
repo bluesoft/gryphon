@@ -1,5 +1,4 @@
-FROM ubuntu:18.04
-MAINTAINER Alex Hall, <alex.mojaki@gmail.com>
+FROM python:3
 
 ENV apti "apt-get install -y "
 RUN apt-get update
